@@ -1,0 +1,1 @@
+let prev = document.getElementById("prev"), next = document.getElementById("next"); next.onclick = () => { let a = document.querySelectorAll(".item"); document.querySelector(".planets").appendChild(a[0]) }, prev.onclick = () => { let a = document.querySelectorAll(".item"); document.querySelector(".planets").prepend(a[a.length - 1]) };
